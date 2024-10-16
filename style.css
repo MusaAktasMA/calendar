@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+
+.day{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    border: solid 1px;
+    background-color: aqua;
+    border-radius: 50px;
+    
+}
+.month{
+margin: 19px;
+display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.week{
+    display: flex;
+
+}
+
+#calenderId{
+    display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+}
+
+#month_0{
+    
+}
+h1,h2{
+    color: white;
+    font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+body{
+    width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.50),
+          rgba(0, 0, 0, 0.50)
+        ),
+        url(img/back.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+}
+
+
+
+#month_0{
+    padding: 50px;
+      border-radius: 25px;
+      background-image: linear-gradient(
+          rgba(192, 82, 82, 0.75),
+          rgba(0, 0, 0, 0.75)
+        )
+}
+#month_0 .day{
+    background-color: rgba(192, 82, 82, 0.75);
+    color: white;
+    
+}
+#month_0 h1{
+    color: rgba(226, 127, 127, 0.75);
+}
+
+#month_1{
+      padding: 50px;
+      border-radius: 25px;
+      background-image: linear-gradient(
+          rgba(70, 80, 50, 0.75),
+          rgba(0, 0, 0, 0.75)
+        )
+}
+#month_1 .day{
+    background-color: rgba(109, 129, 68, 0.75);
+    color: white;
+}
+#month_1 h1{
+    color: rgba(182, 223, 101, 0.75);
+}
+
+#month_2{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(54, 158, 158, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_2 .day{
+  background-color: rgba(54, 158, 158, 0.75);
+  color: white;
+}
+#month_2 h1{
+  color: rgba(98, 212, 212, 0.75);
+}
+
+#month_3{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(159, 172, 49, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_3 .day{
+  background-color: rgba(159, 172, 49, 0.75);
+  color: white;
+}
+#month_3 h1{
+  color: rgba(200, 211, 105, 0.75);
+}
+
+#month_4{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(172, 119, 49, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_4 .day{
+  background-color: rgba(172, 119, 49, 0.75);
+  color: white;
+}
+#month_4 h1{
+  color: rgba(204, 157, 96, 0.75);
+}
+
+#month_5{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(165, 48, 126, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_5 .day{
+  background-color: rgba(165, 48, 126, 0.75);
+  color: white;
+}
+#month_5 h1{
+  color: rgba(202, 99, 168, 0.75);
+}
+
+#month_6{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(67, 46, 158, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_6 .day{
+  background-color: rgba(67, 46, 158, 0.75);
+  color: white;
+}
+#month_6 h1{
+  color: rgba(102, 82, 189, 0.75);
+}
+
+#month_7{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(44, 112, 158, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_7 .day{
+  background-color: rgba(44, 112, 158, 0.75);
+  color: white;
+}
+#month_7 h1{
+  color: rgba(82, 149, 194, 0.75);
+}
+
+#month_8{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(44, 158, 69, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_8 .day{
+  background-color: rgba(44, 158, 69, 0.75);
+  color: white;
+}
+#month_8 h1{
+  color: rgba(153, 219, 114, 0.75)
+}
+
+#month_9{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(55, 44, 158, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_9 .day{
+  background-color: rgba(55, 44, 158, 0.75);
+  color: white;
+}
+#month_9 h1{
+  color: rgba(97, 86, 201, 0.75)
+}
+
+#month_10{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(158, 44, 97, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_10 .day{
+  background-color: rgba(158, 44, 97, 0.75);
+  color: white;
+}
+#month_10 h1{
+  color: rgba(173, 78, 122, 0.75)
+}
+
+#month_11{
+    padding: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        rgba(179, 19, 19, 0.75),
+        rgba(0, 0, 0, 0.75)
+      )
+}
+#month_11 .day{
+  background-color: rgba(179, 19, 19, 0.75);
+  color: white;
+}
+#month_11 h1{
+  color: rgba(233, 94, 94, 0.75)
+}
+
+@media screen and (max-width: 750px) {
+    h2{
+        font-size: 3rem !important;
+    }
+  }
+  
